@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".intencoes.AbrirTela_Ex3">
+    android:background="#BD2D2D"
+    tools:context=".chef_online.home">
 
-    <Button
-        android:id="@+id/button2"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="214dp" />
+        app:srcCompat="@drawable/logo_1"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="323dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

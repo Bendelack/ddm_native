@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary20"
+    android:backgroundTint="?attr/colorAccent"
+    tools:context=".chef_online.login_chef">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_1"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="304dp"
+        android:layout_height="42dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:hint="informe seu email"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="304dp"
+        android:layout_height="42dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#EDECEC"
+        android:hint="informe sua senha"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="299dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#CF2828"
+        android:text="Criar conta"
+        app:strokeColor="#FF0303"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="299dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#53ae66"
+        android:text="Entrar"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="299dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#3B5998"
+        android:text="Entrar com Facebook"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

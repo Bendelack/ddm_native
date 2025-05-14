@@ -128,9 +128,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#FFFFFF"
-            android:backgroundTint="#FFFEFE"
-            android:queryHint="po"
-            android:tooltipText="s">
+            android:backgroundTint="#FFFEFE">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -280,7 +278,7 @@
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="wrap_content"
-                android:layout_height="111dp"
+                android:layout_height="99dp"
                 app:srcCompat="@drawable/brownie" />
 
             <TextView
@@ -451,8 +449,9 @@
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="wrap_content"
+            android:layout_width="31dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
             app:srcCompat="@drawable/filter" />
 
         <TextView

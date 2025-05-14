@@ -8,14 +8,6 @@
     android:backgroundTint="?attr/colorAccent"
     tools:context=".chef_online.login_chef">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logo_1"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="102dp" />
-
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="304dp"
         android:layout_height="42dp"
@@ -69,5 +61,13 @@
         app:srcCompat="@drawable/vector"
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="549dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/temosfome"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="110dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

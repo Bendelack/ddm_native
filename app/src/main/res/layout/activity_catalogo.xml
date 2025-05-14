@@ -256,14 +256,14 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="153dp"
-        android:layout_height="181dp"
+        android:layout_width="154dp"
+        android:layout_height="184dp"
         android:background="#f6f6f6"
         android:orientation="vertical"
         android:padding="2px"
         android:paddingLeft="2px"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="252dp">
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="249dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -444,7 +444,7 @@
         android:layout_height="19dp"
         android:gravity="center|center_vertical"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteX="314dp"
         tools:layout_editor_absoluteY="26dp">
 
         <ImageView

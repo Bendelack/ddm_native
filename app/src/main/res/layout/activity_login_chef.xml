@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/material_dynamic_primary20"
-    android:backgroundTint="?attr/colorAccent"
+    android:backgroundTint="#aa0000"
     tools:context=".chef_online.login_chef">
 
     <com.google.android.material.textfield.TextInputEditText
@@ -69,5 +69,15 @@
         app:srcCompat="@drawable/temosfome"
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entre ou Cadastre-se"
+        android:textColor="#ffffff"
+        android:textSize="55px"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="194dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
